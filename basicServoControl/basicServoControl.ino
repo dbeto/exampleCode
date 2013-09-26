@@ -1,7 +1,7 @@
 ///basic servo control from an analog sensor
 #include <Servo.h> 
 
-Servo servo1  //create the servo object
+Servo servo1;  //create the servo object
 
 
 int sensor1inputPin = 0; //the analog pin the sensor is attached to
